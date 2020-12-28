@@ -1,7 +1,4 @@
-import { sumInput } from './learnjsru/array/summa-vvedyonnyh-chisel.js';
-
-sumInput();
-
+import { justDoIt } from './learnjsru/array/operatsii-s-massivami';
 
 // getMaxSubSum([-1, 2, 3, -9]);
 // getMaxSubSum([2, -1, 2, 3, -9]);

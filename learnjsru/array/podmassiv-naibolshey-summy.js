@@ -3,7 +3,7 @@
  * 
  */
 
-const getMaxSubSum = (arr) => {
+export function getMaxSubSum(arr) {
     let maxSum = 0;
 
     const sumStr = (num) => {
@@ -23,4 +23,3 @@ const getMaxSubSum = (arr) => {
     }
     console.log(arr, ' = ', maxSum);
 }
- export default getMaxSubSum;

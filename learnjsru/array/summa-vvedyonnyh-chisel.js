@@ -8,7 +8,7 @@ export function sumInput() {
     let sum = 0;
 
     do {
-        let newValue = prompt('Введите значение');
+        let newValue = +prompt('Введите значение');
         if (isNaN(newValue)) break;
         acc.push(newValue);
     } while (true);
