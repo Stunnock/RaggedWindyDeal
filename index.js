@@ -1,4 +1,4 @@
-import { sumInput } from './learnjsru/array/summa-vvedyonnyh-chisel';
+import { sumInput } from './learnjsru/array/summa-vvedyonnyh-chisel.js';
 
 sumInput();
 

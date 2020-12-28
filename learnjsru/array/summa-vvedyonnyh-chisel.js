@@ -3,12 +3,12 @@
  * https://learn.javascript.ru/array#summa-vvedyonnyh-chisel
  */
 
-const sumInput = () => {
+export function sumInput() {
     const acc = [];
     let sum = 0;
 
     do {
-        let newValue = +prompt('Введите значение');
+        let newValue = prompt('Введите значение');
         if (isNaN(newValue)) break;
         acc.push(newValue);
     } while (true);
@@ -19,6 +19,4 @@ const sumInput = () => {
     }
 
     return sum;
-};
-
-export default sumInput;
+}

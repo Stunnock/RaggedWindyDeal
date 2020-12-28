@@ -1,0 +1,29 @@
+{
+  "name": "raggedwindydeal",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stunnock/RaggedWindyDeal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stunnock/RaggedWindyDeal/issues"
+  },
+  "homepage": "https://github.com/Stunnock/RaggedWindyDeal#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
